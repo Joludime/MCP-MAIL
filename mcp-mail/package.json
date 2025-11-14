@@ -1,0 +1,16 @@
+{
+  "name": "mcp-mail",
+  "version": "1.0.0",
+  "description": "Servidor MCP para enviar correos",
+  "main": "mcp-mail.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node mcp-mail.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^7.0.10"
+  }
+}
+

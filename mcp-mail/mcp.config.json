@@ -1,0 +1,9 @@
+{
+  "servers": [
+    {
+      "name": "mail-mcp",
+      "command": "node",
+      "args": ["/Users/josel.diaz/mcp-mail/mcp-mail.mjs"]
+    }
+  ]
+}
