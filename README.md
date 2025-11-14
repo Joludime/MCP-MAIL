@@ -2,14 +2,24 @@
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
-[![MCP](https://img.shields.io/badge/MCP-Compatible-blue.svg)](https://modelcontextprotocol.io)
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-red.svg)](https://github.com/Joludime)
+![MCP-MAIL Logo](https://img.shields.io/badge/MCP-MAIL-blue?style=for-the-badge&logo=mail&logoColor=white)
 
-**Servidor MCP para envío de correos electrónicos integrado con Claude Desktop**
+[![Release](https://img.shields.io/github/v/release/Joludime/MCP-MAIL?style=flat-square&color=brightgreen)](https://github.com/Joludime/MCP-MAIL/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![MCP](https://img.shields.io/badge/MCP-Compatible-blue.svg?style=flat-square)](https://modelcontextprotocol.io)
 
-[Instalación](#-instalación) • [Configuración](#-configuración) • [Uso](#-uso) • [Documentación](#-estructura-del-proyecto)
+[![GitHub stars](https://img.shields.io/github/stars/Joludime/MCP-MAIL?style=flat-square)](https://github.com/Joludime/MCP-MAIL/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Joludime/MCP-MAIL?style=flat-square)](https://github.com/Joludime/MCP-MAIL/network)
+[![GitHub issues](https://img.shields.io/github/issues/Joludime/MCP-MAIL?style=flat-square)](https://github.com/Joludime/MCP-MAIL/issues)
+[![Downloads](https://img.shields.io/github/downloads/Joludime/MCP-MAIL/total?style=flat-square&color=blue)](https://github.com/Joludime/MCP-MAIL/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/Joludime/MCP-MAIL?style=flat-square)](https://github.com/Joludime/MCP-MAIL/commits/main)
+
+**🤖 Servidor MCP para envío de correos electrónicos integrado con Claude Desktop**
+
+*Automatiza el envío de emails desde conversaciones con Claude AI usando múltiples cuentas de Gmail*
+
+[📦 Instalación](#-instalación) • [⚙️ Configuración](#️-configuración) • [🎮 Uso](#-uso) • [📚 Documentación](#-estructura-del-proyecto) • [🤝 Contribuir](#-contribuciones)
 
 </div>
 
@@ -26,6 +36,7 @@ MCP-MAIL es un servidor basado en el **Model Context Protocol (MCP)** que permit
 - 🤖 **Integración Claude**: Funciona directamente con Claude Desktop
 - ⚡ **Rápido**: Envío instantáneo de correos desde conversaciones con IA
 - 🛠️ **Fácil configuración**: Setup en minutos
+- 📝 **Documentación completa**: Guías detalladas y ejemplos
 
 ## 📋 Requisitos
 
@@ -131,13 +142,24 @@ y el mensaje "Hola, ¿podemos agendar una reunión para la próxima semana?"
 
 ```
 MCP-MAIL/
+├── README.md                 # Este archivo
+├── LICENSE                   # Licencia MIT
+├── CONTRIBUTING.md           # Guía de contribución
+├── CHANGELOG.md              # Historial de cambios
+├── SECURITY.md               # Política de seguridad
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml           # GitHub Actions CI
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md    # Template para bugs
+│       └── feature_request.md # Template para features
 └── mcp-mail/
-    ├── mcp-mail.mjs          # Servidor MCP principal (ESM)
-    ├── mcp-mail.js           # Alternativa CommonJS
-    ├── package.json          # Dependencias
-    ├── .env.example          # Template de configuración
-    ├── .gitignore            # Archivos ignorados
-    └── README.md             # Documentación completa
+    ├── mcp-mail.mjs         # Servidor MCP principal (ESM)
+    ├── mcp-mail.js          # Alternativa CommonJS
+    ├── package.json         # Dependencias
+    ├── .env.example         # Template de configuración
+    ├── .gitignore           # Archivos ignorados
+    └── README.md            # Documentación detallada
 ```
 
 ## 📦 Tecnologías
@@ -159,6 +181,8 @@ MCP-MAIL/
 
 </div>
 
+Lee nuestra [Política de Seguridad](SECURITY.md) completa para más información.
+
 ## 🤝 Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si quieres mejorar este proyecto:
@@ -168,6 +192,8 @@ MCP-MAIL/
 3. ✍️ Commit tus cambios (`git commit -m 'Agrego nueva característica'`)
 4. 📤 Push a la rama (`git push origin feature/MiNuevaCaracteristica`)
 5. 🔃 Abre un Pull Request
+
+Lee nuestra [Guía de Contribución](CONTRIBUTING.md) para más detalles.
 
 ## 🐛 Solución de Problemas
 
@@ -189,6 +215,12 @@ MCP-MAIL/
 - Verifica la sintaxis JSON de tu configuración
 - Comprueba que no hay espacios extra en las rutas
 
+Para más ayuda, [abre un issue](https://github.com/Joludime/MCP-MAIL/issues/new/choose).
+
+## 📝 Changelog
+
+Ver [CHANGELOG.md](CHANGELOG.md) para el historial completo de cambios.
+
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
@@ -198,16 +230,31 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 **José Luis Díaz Mendoza**
 - GitHub: [@Joludime](https://github.com/Joludime)
 - Email: joludime291076@gmail.com
+- Portfolio: [Ver proyectos](https://github.com/Joludime/portfolio)
 
 ## ⭐ Muestra tu apoyo
 
-¡Dale una ⭐ si este proyecto te ayudó!
+Si este proyecto te resultó útil, considera:
+
+- ⭐ Darle una estrella al repositorio
+- 🐦 Compartirlo en redes sociales
+- 🐛 Reportar bugs o sugerir mejoras
+- 🤝 Contribuir al código
+
+## 🙏 Agradecimientos
+
+- Gracias a [Anthropic](https://anthropic.com) por crear Claude y el MCP
+- Comunidad de desarrolladores de MCP
+- Todos los contribuidores del proyecto
 
 ---
 
 <div align="center">
 
 **Hecho con ❤️ y Node.js**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Joludime-black?style=flat-square&logo=github)](https://github.com/Joludime)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue?style=flat-square)](https://github.com/Joludime/MCP-MAIL/releases/tag/v1.0.0)
 
 [⬆ Volver arriba](#-mcp-mail)
 
